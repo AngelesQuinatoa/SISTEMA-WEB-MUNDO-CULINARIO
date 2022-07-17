@@ -10,7 +10,7 @@
     background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(90, 40, 90, 0.80)), url(/img/fondo\ negro.jpg);
   }
   .navbar {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding:  35px 0;
     display: flex;
@@ -18,20 +18,20 @@
     justify-content: space-between;
   }
   .logo {
-    width:  300px;
+    width:  200px;
     cursor: pointer;
   }
   .navbar > ul > li {
     list-style: none;
     display: inline-block;
-    margin:  0 40px;
+    margin:  0 30px;
     position: relative;
   }
   .navbar > ul > li > a {
     text-decoration: none;
     color: white;
     font: oblique bold 120% cursive;;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
   .navbar > ul > li::before {
 
@@ -86,12 +86,12 @@
 .navbar ul li ul li a{
     display: block;
     color: black;
-    padding: 6px;
+    padding: 1px;
     padding-left: 14px;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 10px;
     text-transform: uppercase;
-    transition:  all 300ms ease;
+    transition:  all 200ms ease;
     text-decoration: none;
 }
 .navbar ul li ul li a:hover{
@@ -145,7 +145,7 @@ figure{
     
 }
 .redes{
-    width: 70px;
+    width: 50px;
 }
 figure:hover{
     transform: translateY(-10px);
@@ -160,7 +160,7 @@ figure:hover{
     list-style: none;
     flex-wrap: wrap;
     text-decoration:none;
-    font-size: 40x;
+    font-size: 20x;
     color: white;
     font: oblique bold 120% cursive;
 }
@@ -253,20 +253,20 @@ footer .wave#wave4{
 /*::::Hasta aqui el pie de página */
 .contenido{
     display: flex;
-    margin: 30px;
+    margin: 20px;
     color: white;
 }
 .noticia1{
-    width: 300px;
-    height: 300px;
+    width: 180px;
+    height: 180px;
     border-radius: 20px;
     display: flex; 
-    margin-right: 600px; 
+    margin-right: 10px; 
     
 }
 .titulo{
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     *margin-right: 1200px;
     margin-top: -60px;
     display: flex;
@@ -279,20 +279,20 @@ footer .wave#wave4{
     transition: transform 0.3s ease-out; 
 }
 .subtitulo{
-    font-size: 30px;
+    font-size: 15px;
 }
 .contenido2{
     font-family: Agency FB;
-    font-size: 20px;
+    font-size: 13px;
     color: #D3CEDF;
     background-color: #85586F;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 30px;
+    padding: 15px;
 }
 .contenido2:hover{
     color: white;
     
 }
 *body{
-    width: 100vw;
+   flex-wrap: wrap;
 }
