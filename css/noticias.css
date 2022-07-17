@@ -201,7 +201,7 @@ footer .wave#wave3{
 footer .wave#wave4{
     z-index: 999;
     opacity: 0.7;
-    bottom: 20x;
+    bottom: 0x;
     animation: animateWave_04 3s linear infinite;
 }
 @keyframes animateWave
@@ -249,4 +249,46 @@ footer .wave#wave4{
     }
 }
 
+.contenido{
+    display: flex;
+    margin: 30px;
+    color: white;
+}
+.noticia1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex; 
+    margin-right: 600px; 
+    
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-right: 1200px;
+    margin-top: -60px;
+    display: flex;
+}
+.titulo:hover{
+    color: #F9CEEE;
+}
+.noticia1:hover{
+    transform: translateX(20px);
+    transition: transform 0.3s ease-out; 
+}
+.subtitulo{
+    font-size: 30px;
+}
+.contenido2{
+    font-family: Agency FB;
+    font-size: 20px;
+    color: #D3CEDF;
+    background-color: #85586F;
+    border-radius: 20px;
+    padding: 20px;
+}
+.contenido2:hover{
+    color: white;
+    
+}
 
