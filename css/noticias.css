@@ -289,7 +289,7 @@ footer .wave#wave4{
     font-size: 13px;
     color: #D3CEDF;
     background-color: #85586F;
-    border-radius: 3    0px;
+    border-radius: 30px;
     padding: 15px;
 }
 .contenido2:hover{
@@ -304,3 +304,27 @@ footer .wave#wave4{
     margin-top: 50px;
     margin-left: 100px;
 }
+.noticia3{
+    width: 200px;
+    margin-top: -270px ;
+    margin-left: 340px;
+    border-radius: 20px;
+}
+.noticia3:hover{
+    transform: translateY(20px);
+    transition: transform 0.3s ease-out;   
+}
+.contenido4{
+color: #D3CEDF;
+margin-top: -160px;
+margin-left: 550px ;
+background-color: #85586F;
+padding: 30px;
+border-radius: 20px;
+font-size: 13px;
+font-family: Agency FB;
+}
+.contenido4:hover{
+    color: white;
+}
+
